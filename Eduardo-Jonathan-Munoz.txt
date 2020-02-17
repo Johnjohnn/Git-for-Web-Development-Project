@@ -1,87 +1,141 @@
 
 Copy the questions below into the firt-lastname.txt file on your github repo - answer each question and then push your changes. 
 
-    1. What is Semantic HTML? Hyperlink Markup lenguje it is the structure of a website .
+    1. What is Semantic HTML?
+     Hyperlink Markup lenguje it is the structure of a website .
 
-    2. What is HTML used for? it provides semantic meaning to a website by providing tags for its content .
+    2. What is HTML used for? 
+    it provides semantic meaning to a website by providing tags for its content .
 
-    3. What is an attribute and where do we put it? a peice of information whitch determines the properties of a field or tag database. 
+    3. What is an attribute and where do we put it? 
+     peice of information whitch determines the properties of a field or tag database. 
 
-    4. What is the h1 tag used for? the h1 tag is used on the main tittle of a website How many times should I use it on a page? one should stick to only use it 1 time per page . 
+    4. What is the h1 tag used for? the h1 tag is used on the main tittle of a website How many times should I use it on a page? 
+    one should stick to only use it 1 time per page . 
 
-    5. Name two tags that have required attributes  <link>  <href>
+    5. Name two tags that have required attributes :
+     <link>  <href>
 
     6. What do we put in the head of our HTML document? <title> or <link> tags are usually nested within the head .
     7. What is an id? is an unique adentifier that is used to specify an unique element. 
 
-    8. What elements can I add an id to? an Html element .  
+    8. What elements can I add an id to? 
+    an Html element .  
 
-    9. How many times can I use the same id on a page? 1 time
+    9. How many times can I use the same id on a page? 
+    1 time
 
-    10. What is a class? is an attribute that works to style certain elements 
+    10. What is a class? 
+    is an attribute that works to style certain elements 
 
-    11. What elements can I add a class to?  any html element that is nested within the body 
+    11. What elements can I add a class to? 
+     any html element that is nested within the body 
 
-    12. How many times can I use the same class on a page? there is not technical limit but is recomended to use it only 1 time per page.
+    12. How many times can I use the same class on a page?
+     there is not technical limit but is recomended to use it only 1 time per page.
 
-    13. How do I get my link to open in a new tab? <a href="#"  target="_blank">hello </a>
+    13. How do I get my link to open in a new tab?
+     <a href="#"  target="_blank">hello </a>
 
-    14. What is the alt attribute used for? the alt attribute specifies an alternate text when certain images cannot be displayed .
+    14. What is the alt attribute used for?
+     the alt attribute specifies an alternate text when certain images cannot be displayed .
 
-    15. How do I reference an id? by giving the element an ID name example <div  id="main-section">
+    15. How do I reference an id? 
+    by giving the element an ID name example <div  id="main-section">
 
-    16. What is the difference between a section and a div? the <section> tag defines sections in a document the <div> is used to group block-elements to format them with css is used more for styling.
+    16. What is the difference between a section and a div? 
+    the <section> tag defines sections in a document the <div> is used to group block-elements to format them with css is used more for styling.
 
-     17. What is CSS used for? is it used to style elements in our page .
+     17. What is CSS used for? 
+     is it used to style elements in our page .
 
-    18. How to we select an element? Example - every h2 on the page  h2 {} only target all the h2s within the page . 
+    18. How to we select an element? 
+    Example - every h2 on the page  h2 {} only target all the h2s within the page . if you want to be more specific you can always add a class .
   
     19. What is the difference between a class and an id? - Give me an example of when I might use each one 
        id is used to identify one element  while class is often more used to identify and target more then one element . 
 
     20. How do we select classes in CSS?   .class    in css  put dot following with the name of the class . 
 
-    21. How do we select a p element with a single class of “human””? we select that class in css with .human {}
+    21. How do we select a p element with a single class of “human””?
+     we select that class in css with .human {}
 
+    22. What is a parent child selector? When would this be useful? 
+    it is used to select the children nested inside the parent element a great example  would be targeting <li>  nested inside <ol> that is nested insde a <nav>
 
-    22. What is a parent child selector? When would this be useful? it is used to select the children nested inside the parent element a great example  would be targeting <li>  nested inside <ol> that is nested insde a <nav>
+    23. How do you select all links within a div with the class of sidebar? 
+     a .sidebar {}
 
-    23. How do you select all links within a div with the class of sidebar?  a .sidebar {}
+    24. What is a pseudo selector? 
+    is a selector that selects elements tht are in a specific state or are being hover over by the mouse pointer. 
 
-    24. What is a pseudo selector? is a selector that selects elements tht are in a specific state or are being hover over by the mouse pointer. 
+    25. What do we use the change the spacing between lines? 
+    line height css property 
 
-    25. What do we use the change the spacing between lines? line height css property 
+    26. What do we use to change the spacing between letters? 
+    we use the letter-spacing property in css 
 
-    26. What do we use to change the spacing between letters? we use the letter-spacing property in css 
-
-    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? we use the property text-transform in css to Capitalize or lowercase text .
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize? 
+    we use the property text-transform in css to Capitalize or lowercase text .
 
     28. How do I add a 1px border around my div that is dotted and black? would be   
 div {
   border: dotted 1px black ;
 }
-    29. How do I select everything on the page? Using the universal selector  * {} 
+    29. How do I select everything on the page? 
+    Using the universal selector  * {} 
 
-    30. How do I write a comment in CSS?  write the text inside     /*  TEXT HERE */ 
+    30. How do I write a comment in CSS?  
+    write the text inside     /*  TEXT HERE */ 
 
-    31. How do I find out what file I am in, when I am using the command line? you can type the CD  (change directory) then press enter and it will tell you what folder you are in . 
+    31. How do I find out what file I am in, when I am using the command line? 
+    you can type the CD  (change directory) then press enter and it will tell you what folder you are in . 
 
-    32. Using the command line - how do I see a list of files/folders in my current folder? the ls command will show you the list of folders inside the directory you are currently in . 
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+     the ls command will show you the list of folders inside the directory you are currently in . 
 
     33. How do I remove a file via the command line? Why do I have to be careful with this? rm command will remove any file in the folder that you are in and you need to be careful with this as it has no warning
          and file will be removed permanetly . 
 
-    34. Why should I use version control? cause it allows you to work in a group while keeping files and directories orginized and wito
+    34. Why should I use version control? 
+    cause it allows you to work in a group while keeping files and directories orginized and witout modifying the original version of the file .
     35. How often should I commit to github?
-    36. What is the command we would use to push our repo up to github? 
+    36. What is the command we would use to push our repo up to github?  
+    git push 
     37. Walk me through Lambda's git flow. 
+   1: Go to the main project file , FORK IT or make a copy of it !! 
+   2: clone it using your version control 
+   3: Create a branh usuing your version control by typing git checkout -b "name-of-the-branch-here"
+   4: commit and pushed the saved file into github . 
+-----------------------------------------------------------------------Below is the link for the Codepen Project------------------------------------------------------------
+
+https://codepen.io/johnjohnn/pen/WNvrqbP
+
+
+
+
+
+
+
+
+
+
+
+
 
 Stretch Questions
 
-    1. What is the difference between an inline element and a block element?
-    2. What happens when an element is positioned absolutely? 
-    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    1. What is the difference between an inline element and a block element? 
+    on display inline  margins and paddings are NOT respected but only takes up as much width as necessary, if you have display : block ; this takes up the full width available taking up a full line .
+
+    2. What happens when an element is positioned absolutely?  the element is positioned to its nearest positioned ancestors !
+
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width?  
+    you can use  display: inline block ;
     4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    <div>  <p>  <section>  ,  <span>  <a> , <button>
     5. In your own words, explain the box model. What is the fix for the box model? 
 
-
+     when laying out a website every element is a box that is composed of four parts  the content , padding , border and the margin 
+     learning the structure of the box model can avoid positioning errors  and be more precised while positioning your content by default the box model has a set of rules 
+     that decides how much border and margins are on the element  , a good fix would the be box-sizing property makes building CSS easier . 
